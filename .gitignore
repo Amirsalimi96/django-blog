@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Database (اطلاعات دیتابیس لوکال نباید آپلود شود)
+db.sqlite3
+db.sqlite3-journal
+
+# Media files (عکس‌هایی که کاربران آپلود می‌کنند)
+media/
+!media/default.jpg
+
+# Environment variables / secrets
+.env
+local_settings.py
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
